@@ -9,6 +9,7 @@ public class Textchange : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         playerName.text = "Your nickname: " + ManagerData.Instance.playerName;
     }
 
