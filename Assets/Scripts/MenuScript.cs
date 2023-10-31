@@ -24,6 +24,7 @@ public class MenuScript : MonoBehaviour
     {
         ManagerData.Instance.playerName = ManagerData.Instance.PlayerNameField.text;
         SceneManager.LoadScene(1);
+        ManagerData.Instance.mainManager = GameObject.Find("MainManager").GetComponent<MainManager>();
     }
 
 }
